@@ -1,4 +1,4 @@
-# electron_workshop
+l# electron_workshop
 
 ## このワークショップのゴール
 + (Atomエディタ, nodejs・npm, Electron)ちょっとわかるマンになる
@@ -41,7 +41,8 @@ Atomを初めて使った方は、apmってなんだよ(哲学)と思われた�
 "Ctrl-Shift-P"(OS Xの方は以降ctrlをcmdに読み替えてください)を入力してください。そして"term3"と入力してEnterで、ターミナルエミュレータが起動します。
 
 "Ctrl-Shift-P"で出てくるウインドウはコマンドパレットと言って、このように検索を利用してキーバインドを覚えることなく任意の機能を実行できます。便利！
-![command_pallet](cmd_pallet.png)
+
+![command_pallet](assets/img/cmd_pallet.png)
 
 ターミナルに以下のコマンドを入力してください。
 ````
@@ -49,7 +50,7 @@ apm star --installed
 ````
 すると、atom.ioの自分のアカウントのAPIトークンを求められます。Enterするとatom.ioのページに飛ぶので、トークンを入手してターミナルに貼り付けてください。コマンドが実行されます。
 
-![apm_star_installed](apm_star_installed.png)
+![apm_star_installed](assets/img/apm_star_installed.png)
 
 これで、インストール済みのパッケージが「お気に入りに追加」されたことになります。他の環境でAtomを利用することになったら、
 ````
@@ -75,8 +76,10 @@ atom-workspace {
 
 さて、この記法ですが、もろcssのそれですね。Atomはフォントサイズ以外にもフォントカラー,配置(padding, margin),アニメーションなど、cssを記述することで自由にカスタマイズできます。
 
-先ほどインストールしたパッケージもjavascript(coffescript)などで記述されています(例えば、style.lessの入っていた設定フォルダ/packages/atom-beautify/srcを見てみてください)。そして先ほどわかったように、それらはapmというnpmのようなシステムで管理されています。
+先ほどインストールしたパッケージたちはjavascript(coffescript)などで記述されています(例えば、style.lessの入っていた設定フォルダ/packages/atom-beautify/srcを見てみてください)。そして先ほどわかったように、それらはapmというnpmのようなシステムで管理されています。
 
-そう、Electron AppはWeb技術を使ってつくるデスクトップアプリなんです。開発の準備はバッチシ、さっそく作ってみましょう。
+そう、Electron AppはWeb技術を使ってつくるデスクトップアプリなんです。開発の準備はもうバッチシ、さっそく作ってみましょう。
 
 ### 2. とにかくElecron Appをつくってうごかす
+
+### 3. ちょっと凝ったElecron Appをつくる
