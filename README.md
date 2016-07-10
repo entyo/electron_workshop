@@ -1,4 +1,4 @@
-l# electron_workshop
+# electron_workshop
 
 ## このワークショップのゴール
 + (Atomエディタ, nodejs・npm, Electron)ちょっとわかるマンになる
