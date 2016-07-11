@@ -1,0 +1,12 @@
+{
+  "name": "hello_electron",
+  "version": "0.0.1",
+  "description": "Hello World App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
