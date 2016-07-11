@@ -86,6 +86,7 @@ Hello, Worldしてみましょう。(エディタ内)ターミナルで以下の
 mkdir hello_electron && cd hello_electron
 ````
 ここをアプリケーションのルートディレクトリとします。
+
 ![base_is_here](assets/img/base_is_here.jpg)
 
 続けて以下を入力してください。
